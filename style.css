@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+container {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    flex-direction: column;
+    height: 210px;
+    background-color: red;
+    bottom: -250px;
+    left: 0px;
+    right: 0px;
+}
+
+.carousel.slide {
+    max-width: 60%;
+    max-height: 20%;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+    color: white;
+}
+
+.caption {
+    position: absolute;
+    top: 400px;
+    color: white;
+    z-index: 10;
+    margin-top: -100px !important;
+    background-color: #b85641;
+    padding: 10px;
+    opacity: 0.85;
+}
+
+
+button.fontSize {
+    margin: 0 0.5rem !important;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand>img {
+    max-width: 20rem;
+}
+
+#login {
+    padding: 2rem;
+}
+
+#login p {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#login button {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box {
+    max-height: 15rem;
+    border: 10px;
+    padding: 10px;
+    padding-bottom: 9px;
+    margin: 1rem 2rem;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+#random {
+    max-height: 4rem;
+    height: 5rem;
+}
+#random .innerDiv{
+    position: relative;
+    display: inline;
+    justify-content: left;
+    max-width: 50%;
+}
+#random form {
+    position: relative;
+    justify-content: right;
+    top: -35px;
+    right: 0px;
+}
+
+.container {
+    max-width: 90% !important;
+}
+
+#fb {
+    max-width: 30px;
+    max-height: 30px;
+    margin: auto 1rem;
+}
