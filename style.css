@@ -30,6 +30,10 @@ footer {
 
 }
 
+.card{
+    height: 22rem;
+}
+
 .carousel.slide {
     max-width: 60%;
     max-height: 20%;
