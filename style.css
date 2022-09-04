@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("https://lablackengineers.org/templates/prestige_academy/images/main-bg.png");
+}
+
 container {
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    display: flex;
 }
 /*
 footer {
@@ -21,25 +26,25 @@ footer {
     right: 0px;
 }
 */
-
+.row{
+    margin-top: 2rem;
+}
+nav{
+    text-transform: uppercase;
+}
 footer {
     width: 100%;
     flex-direction: column;
-    height: 210px;
-    background-color: red;
-
 }
 
-.card{
-    height: 22rem;
+.programs{
+    height: 20rem;
+    border: 2px solid red;
 }
 
 .carousel.slide {
-    max-width: 60%;
-    max-height: 20%;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto;
     max-height: 400px;
     overflow: hidden;
 }
