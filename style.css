@@ -58,6 +58,11 @@ footer {
 .rounded-start{
     border-radius: 3rem;
     margin: 0 20px 35px 20px !important;
+    
+}
+
+.img-fluid{
+    max-width: 90% !important;
 }
 
 .card{
