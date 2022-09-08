@@ -61,6 +61,10 @@ footer {
     
 }
 
+#chartContainer4, #chartContainer2{
+    margin: 0 auto !important;
+}
+
 .img-fluid{
     max-width: 90% !important;
 }
